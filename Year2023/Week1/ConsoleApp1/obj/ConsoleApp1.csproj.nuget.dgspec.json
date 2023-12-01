@@ -1,36 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PieterS\\Documents\\Repositories\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Pieter\\Documents\\Hobby\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PieterS\\Documents\\Repositories\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Pieter\\Documents\\Hobby\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PieterS\\Documents\\Repositories\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Pieter\\Documents\\Hobby\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\PieterS\\Documents\\Repositories\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\PieterS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PieterS\\Documents\\Repositories\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\Pieter\\Documents\\Hobby\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Pieter\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pieter\\Documents\\Hobby\\AdventOfCode\\Year2023\\Week1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PieterS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Pieter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
