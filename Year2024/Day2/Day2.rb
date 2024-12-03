@@ -28,14 +28,51 @@ def is_safe(array)
   true
 end
 
+def is_safe_part2?(line)
+  is_sorted?(line) && within_tolerance?(line)
+end
+
+def within_tolerance?(line)
+  line.each_with_index do |value, index|
+    next if index == 0
+
+    difference = (value - line[index - 1]).abs
+    return false if difference > 3 || difference == 0
+  end
+  true
+end
+
+def is_sorted?(line)
+  if (line == line.sort) || (line.reverse == line.sort)
+    true
+  else
+    false
+  end
+end
+
 def read_file
   $trueCounts = 0
+  $arrayLine = []
   File.open(File.dirname(__FILE__) + '/input.txt').each do |line|
     lineSplit = line.split
     puts line
-    $trueCounts += 1 if is_safe(lineSplit.grep(/\d+/, &:to_i))
+    $arrayLine.push(lineSplit.grep(/\d+/, &:to_i))
   end
 end
 
 read_file
+
+$arrayLine.each do |measurement|
+  if is_safe_part2?(measurement)
+    $trueCounts += 1
+  else
+    measurement.combination(measurement.length - 1).each do |combination|
+      if is_safe_part2?(combination)
+        $trueCounts += 1
+        break
+      end
+    end
+  end
+end
+
 puts $trueCounts
